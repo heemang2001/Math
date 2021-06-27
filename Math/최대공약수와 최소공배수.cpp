@@ -15,7 +15,7 @@ int main()
 	int maxNum = max(num1, num2);
 	int maxYaksoo = 1;
 
-	// 1. 최대 공약수
+	// 최대 공약수
 	for (int i = 2; i <= minNum; i++)
 	{
 		if (((maxNum % i) == 0) && ((minNum % i) == 0))
@@ -27,7 +27,7 @@ int main()
 	int nTemp = 1;
 	int minBaesoo = 0;
 
-	// 2. 최소 공배수
+	// 최소 공배수
 	while (1)
 	{
 		minBaesoo = maxNum * nTemp;
