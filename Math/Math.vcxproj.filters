@@ -24,5 +24,8 @@
     <ClCompile Include="최대공약수와 최소공배수.cpp">
       <Filter>Source Files\백준</Filter>
     </ClCompile>
+    <ClCompile Include="테스트.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
