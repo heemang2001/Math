@@ -27,7 +27,7 @@ int main()
 	int nTemp = 1;
 	int minBaesoo = 0;
 
-	// 최소 공배수
+	// 최소 공배수.
 	while (1)
 	{
 		minBaesoo = maxNum * nTemp;
