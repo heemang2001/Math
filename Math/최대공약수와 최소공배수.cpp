@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -15,7 +15,7 @@ int main()
 	int maxNum = max(num1, num2);
 	int maxYaksoo = 1;
 
-	// ÃÖ´ë °ø¾à¼ö
+	// ìµœëŒ€ ê³µì•½ìˆ˜
 	for (int i = 2; i <= minNum; i++)
 	{
 		if (((maxNum % i) == 0) && ((minNum % i) == 0))
@@ -27,7 +27,7 @@ int main()
 	int nTemp = 1;
 	int minBaesoo = 0;
 
-	// ÃÖ¼Ò °ø¹è¼ö
+	// ìµœì†Œ ê³µë°°ìˆ˜
 	while (1)
 	{
 		minBaesoo = maxNum * nTemp;
